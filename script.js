@@ -157,3 +157,43 @@ console.log(num);
 
 
 //ARRAYS
+//ex:
+var usersFirstName = "Dwight";    
+var usersLastName = "Schrute";    
+var usersEmail = "beetsbears@battlestar.com";
+// donnees lies a un user
+
+//array
+var user = ["Dwight", "Schrute", "beetsbears@battlestar.com"];
+
+//OPERATIONS SUR LES TABLEAUX
+
+// ajout
+var user = ["Dwight", "Schrute", "beetsbears@battlestar.com"];    
+user.push("jello");    
+console.log(user);    // ["Dwight", "Schrute", "beetsbears@battlestar.com", "jello"]
+
+// retrait
+var user = ["Dwight", "Schrute", "beetsbears@battlestar.com"];    
+user.pop();    //supprime uniquement le dernier elt
+console.log(user);    // ["Dwight", "Schrute"]
+
+var poissons = ["scalaire", "clown", "mandarin", "chirurgien"];
+var newPoissons = poissons.splice(3, 1); // supprime a partir de la position 3 , 1 element
+console.log(poissons); // ["scalaire", "clown", "mandarin"]
+
+
+// mise a jour/ modification
+var user = ["Dwight", "Schrute", "beetsbears@battlestar.com"];    
+console.log(user[0]);    // reading the value -- OUTPUT: Dwight    
+user[1] = "Martin";    // updating the value    
+console.log(user);    // ["Dwight", "Martin", "beetsbears@battlestar.com"]
+
+//Length: 
+var user = ["Dwight", "Schrute", "beetsbears@battlestar.com"];    
+console.log(user.length);    // 3    
+
+
+
+
+
